@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="logo">
-        <form action="db-select_act.php" method="post">
+        <form action="" method="post">
         <img src="image1.png"><br><br>
             <button name = "Payroll"><b>PAYROLL GENERATION</b></button><br>
             <button name = "Registration"><b>EMPOLYEE REGISTRATION</b></button>

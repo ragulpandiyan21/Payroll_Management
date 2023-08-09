@@ -1,0 +1,110 @@
+body{
+    background-color: #dc143d;
+    color: white ;
+}
+h2{
+    text-align: center;
+}
+label{
+   margin-bottom: 70px;
+}
+div{
+    margin-top: 20px;
+}
+.name{
+    margin-left: 132px;
+    height:30px;
+}
+.door{
+    margin-left: 132px;
+    height:30px;
+}
+.gender{
+    margin-left: 115px;
+    border:2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    width:250px;
+    height:36px;
+}
+.street{
+    margin-left: 192px;
+    height:30px;
+}
+.edu{
+    margin-left: 85px;
+    height:30px;
+}
+.area{
+    margin-left: 216px;
+    border-radius: 30px;
+    text-align: center;
+    border:2px solid black;
+    width:250px;
+    height:36px;
+}
+.blood{
+    margin-left: 65.5px;
+    border:2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    width:250px;
+    height:36px;
+}
+.pincode{
+    margin-left: 185px;
+    height:30px;
+}
+.state{
+    margin-left: 202px;
+    height:30px;
+}
+.mobile{
+    margin-left: 104px;
+    height:30px;
+}
+.district{
+    margin-left: 173px;
+    height:30px;
+}
+.aadhar{
+    margin-left: 37.5px;
+    height:30px;
+}
+.pan{
+    margin-left: 75px;
+    height:30px;
+}
+.dob{
+    margin-left: 59px;
+    height:31px;
+}
+input{
+    border:2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    width:250px;
+}
+label{
+    margin-left: 220px;
+}
+.backgroundimage{
+    text-align: center;
+    background-color: #dc143d;
+    filter:opacity(35%);
+    width:250px;
+    height:250px;
+    margin-top:151px;
+    position:absolute;
+    right:41%;
+    z-index:-1;
+}
+button{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    width:90px;
+    height: 40px;
+    margin-left: 740px;
+}
