@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "connection.php";
+require_once "db_connection.php";
 ?>
 
 <!DOCTYPE html>
@@ -40,7 +40,6 @@ require_once "connection.php";
 </html>
 
 <?php
-require_once  "connection.php";
 
 if(isset($_POST["signup"])){
     $username = $_POST["username"];

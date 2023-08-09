@@ -75,7 +75,7 @@ session_start();
 </html>
 
 <?php
-require_once "connection.php";
+require_once "db_connection.php";
 
 if(isset($_POST["personal_details"])){
     $emp_Name = $_POST["name"];
@@ -145,6 +145,7 @@ if(isset($_POST["personal_details"])){
         }
     }
 
+//Check whether entered Aadhar number already exists//    
 
 function checkaad($conn, $aadnum){
     $sql="SELECT empaadhaar from emp_personal_details WHERE empaadhaar=?";
@@ -162,6 +163,8 @@ function checkaad($conn, $aadnum){
     }
     exit();
 }
+
+//Check whether entered PAN number already exists//
 
 function checkpan($conn, $pan){
     $sql="SELECT emppan from emp_personal_details WHERE emppan=?";

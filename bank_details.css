@@ -1,0 +1,66 @@
+
+body{
+    background-color:#dc143d;
+    color:white;
+
+    
+
+}
+.backgroundimage{
+    z-index:-1;
+    text-align: center;
+    background-color: #dc143d;
+    
+    width:100px;
+    height:100px;
+    margin-top:65px;
+    margin-left: 700px;
+
+    
+}
+h2{
+    text-align: center;
+}  
+
+input{
+    width:190px;
+    height:30px;
+    border-radius:50px;
+    z-index:2;
+}
+label{
+    text-align: left;
+    margin-left:580px;
+}
+button{
+    margin-left:700px;
+    border-radius: 20px;
+    height:35px;
+    width:150px;
+}
+.namei{
+    margin-left: 73px;
+}
+.ifsci{
+    margin-left: 79px;
+}
+.benii{
+    margin-left: 13px;
+}
+.acci{
+    margin-left: 13px;
+}
+
+.acc_tyi{
+    margin-left:45px;
+}
+
+.branchi{
+    margin-left:43px;
+}
+.emp{
+    margin-left: 53px;
+}
+
+
+

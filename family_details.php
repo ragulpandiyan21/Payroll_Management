@@ -40,7 +40,7 @@ require_once "connection.php";
 </html> 
 
 <?php
-require_once "connection.php";
+require_once "db_connection.php";
 if(isset($_POST["next"])){
     $emp_Marstat = $_POST["Marstat"];
     $emp_Ccount = $_POST["childcount"];
@@ -55,7 +55,7 @@ if(isset($_POST["next"])){
         $_SESSION["emp_mname"] = $emp_Mname;
         $_SESSION["emp_sname"] = $emp_Sname;
         $_SESSION["emp_emecon"] = $emp_Emecon;
-        header("location: experience.php"); 
+        header("location: experience_details.php"); 
     }
     else{
         {echo '<script type="text/javascript">
