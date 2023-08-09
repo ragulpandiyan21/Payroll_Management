@@ -17,3 +17,15 @@
     </div>
 </body>
 </html>
+
+<?php
+session_start();
+
+if(isset($_POST["Payroll"])){
+    header("location: payroll_selection.php");
+}
+if(isset($_POST["Registration"])){
+    header("location: personal_details.php");
+}
+
+?>
