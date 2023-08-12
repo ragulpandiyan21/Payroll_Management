@@ -1,0 +1,91 @@
+
+body{
+    background-color:#dc143d;
+    color:white;
+}
+.backgroundimage{
+    z-index:-1;
+    text-align: center;
+    background-color: #dc143d;
+    filter:opacity(35%);
+    width:300px;
+    height:300px;
+    margin-top:55px;
+    margin-left: 600px;
+    z-index:0;
+    
+}
+.btn-prim{
+    text-align: center;
+    width: 430px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.btn-sec{
+    width: 250px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 13px;
+    font-size: 20px;
+}
+.mid{
+    margin-left: 440px;
+    margin-top: 100px;
+    z-index:1;
+}
+.container{
+    margin: auto ;
+    background-color: #fff;
+    color: black;
+    height: 150px;
+    width: 450px;
+    padding: 22px;
+    border-radius: 20px;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 9px;
+    
+    
+}
+.t1{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 40px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.t2{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 60px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ctr{
+    max-width: 20px;
+    margin: auto;
+}
+.buttons{
+    max-width: fit-content;
+    margin: auto;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px;
+}
+.btn-ter{
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 13px;
+    margin-left: 45%;
+    font-size: 16px;
+}

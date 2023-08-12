@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("WallpaperDog-10907455.jpg");
+    font-family: "Nunito", sans-serif;
+    min-height:100vh;
+    margin:1rem 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+    
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#dc143d;
+    border-radius: 10px;
+    box-shadow:  0 14px 28px rgba(0,0,0,0.85), 0 10px 10px rgba(0, 0, 0, 0.55);
+    position:relative;
+    overflow:hidden;
+    flex-wrap: wrap;
+    height:600px;
+    width:840px;
+    max-width:100%;
+}
+form{
+    background-color: #dc143d;
+    display:flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding:0 50px;
+    height:100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.backgroundimage{
+    text-align: center;
+    background-color: #dc143d;
+    /*filter:opacity(50%);*/
+    width:80px; 
+    height:80px;
+    margin-bottom:510px;
+    position:absolute;
+    right:46%;
+    z-index:0;
+}
+input{
+    background-color: #eee;
+    border:none;
+    padding:8.5px 15px;
+    margin: 8px 0;
+    width: 200px;
+    font-family: inherit;
+    border-radius: 25px;
+}
+button{
+    
+    cursor:pointer;
+    border-radius:20px;
+    border: 1px solid  #dc143d;
+    background: black;
+    color:#fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width:164px;
+    height:35px;
+    margin-left: 300px;
+ }
+ button:hover{
+    background:   #6b1b2b;
+ }
+ button:active{
+    transform: scale(0.96);
+ }
+ select{
+    background-color: #eee;
+    border:none;
+    padding:8.5px 15px;
+    margin: 8px 0;
+    width: 200px;
+    font-family: inherit;
+    border-radius: 25px;
+}
+label{
+    font-size:bold ;
+    text-align: left;
+    margin-left: 210px;
+}
+.name{
+    margin-left: 120px;
+}
+.role{
+    margin-left: 123px;
+}
+.wd{
+    margin-left: 50px;
+}
+.ot{
+    margin-left: 83px;
+}
+.ota{
+    margin-left: 77px;
+}
+.as{
+    margin-left: 29px;
+}
+.aa{
+    margin-left: 27px;
+}
