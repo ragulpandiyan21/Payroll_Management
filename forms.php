@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <img src="image1.png" class = "backgroundimage"><br>
-    <form action="" method="post">
+    <form action="db-form_sel.php" method="post">
     <div>
         <button type = "submit" name = "P"><b>FORM P</b></button><br>
         <button type = "submit" name = "R"><b>FORM R</b></button><br>

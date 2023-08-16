@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "connection.php";
+require_once "db_connection.php";
 
 if(isset($_POST["P"])){
     $form = "P_FORM";
